@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    line-height: 0.8;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+}
+
+
+
+.logo {
+    padding-bottom: 60px;
+}
+.logo img {
+    width: 200px;
+}
+.title h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 110);
+    font-weight: 600;
+}
+/* =========================================================== */
+/*======================== Login ========================*/
+/* =========================================================== */
+
+.login-area {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 50px;
+}
+.login-area input {
+    margin-top: 20px;
+}
+button {
+    text-transform: capitalize;
+}
+.login-area button {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+#alert {
+    display: none;
+}
+#impInfo {
+    display: none;
+}
+#wrongPinNotify {
+    margin-top: 20px;
+    text-align: center;
+}
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
+/* =========================================================== */
+/*======================== transaction ========================*/
+/* =========================================================== */
+
+#transaction {
+    display: none;
+}
+.trnsc-item {
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 12px;
+}
+.trnsc-item h5 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.trnsc-item h2 {
+    font-size: 45px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.withdraw .trnsc-item {
+    background-color: salmon;
+}
+.balance .trnsc-item {
+    background-color: orange;
+}
+.transc-inputs {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 60px;
+}
+.transc-inputs h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 110);
+}
+.transc-inputs input {
+    margin-bottom: 25px;
+}
